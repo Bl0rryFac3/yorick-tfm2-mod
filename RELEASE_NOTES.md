@@ -1,10 +1,4 @@
 # Release notes — v0.7.0 (initial public release)
-
-Use the text between the --- lines as the GitHub Release body (tag `v0.7.0`, title
-`v0.7.0 — initial public release`), and attach `league_yorick_mod.zip` as the release asset.
-Note: v0.5/v0.6 were internal builds only, never published; this is the first public release,
-so the notes are framed as an initial release, not a changelog.
-
 ---
 
 **Yorick for TFM2-League-Heroes — first public release.** A pixel-art Yorick champion mod:
