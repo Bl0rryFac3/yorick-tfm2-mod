@@ -1,0 +1,11 @@
+[package]
+name = "league_yorick"
+version = "0.2.0"
+edition = "2021"
+description = "Native Rust addon for Yorick (The Shepherd of Souls) in Teamfight Manager 2 — spawns and controls real Mist Walker Ghouls and The Maiden of the Mist via mod-api-stable."
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+mod-api-stable = { path = "../vendor/mod-api-stable" }

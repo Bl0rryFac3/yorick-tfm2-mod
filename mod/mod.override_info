@@ -1,0 +1,110 @@
+{
+  "asset/base/text/champion": {
+    "remapping": "asset/league_yorick/text/champion",
+    "type": "merge"
+  },
+  "asset/base/style/champion_view": {
+    "remapping": "asset/league_yorick/style/champion_view",
+    "type": "merge"
+  },
+  "asset/base/sound/sfx/league_yorick_attack": {
+    "remapping": "asset/league_yorick/sound/sfx/league_yorick_attack",
+    "type": "override"
+  },
+  "asset/base/sound/sfx/league_yorick_e_cast": {
+    "remapping": "asset/league_yorick/sound/sfx/league_yorick_e_cast",
+    "type": "override"
+  },
+  "asset/base/sound/sfx/league_yorick_e_hit": {
+    "remapping": "asset/league_yorick/sound/sfx/league_yorick_e_hit",
+    "type": "override"
+  },
+  "asset/base/sound/sfx/league_yorick_q_cast": {
+    "remapping": "asset/league_yorick/sound/sfx/league_yorick_q_cast",
+    "type": "override"
+  },
+  "asset/base/sound/sfx/league_yorick_q_hit": {
+    "remapping": "asset/league_yorick/sound/sfx/league_yorick_q_hit",
+    "type": "override"
+  },
+  "asset/base/sound/sfx/league_yorick_r_cast": {
+    "remapping": "asset/league_yorick/sound/sfx/league_yorick_r_cast",
+    "type": "override"
+  },
+  "asset/base/sound/sfx/league_yorick_r_pulse": {
+    "remapping": "asset/league_yorick/sound/sfx/league_yorick_r_pulse",
+    "type": "override"
+  },
+  "asset/base/sound/sfx/league_yorick_r_vanish": {
+    "remapping": "asset/league_yorick/sound/sfx/league_yorick_r_vanish",
+    "type": "override"
+  },
+  "asset/base/sound/sfx/league_yorick_sfx_atk_hit": {
+    "remapping": "asset/league_yorick/sound/sfx/league_yorick_sfx_atk_hit",
+    "type": "override"
+  },
+  "asset/base/sound/sfx/league_yorick_sfx_atk_swing": {
+    "remapping": "asset/league_yorick/sound/sfx/league_yorick_sfx_atk_swing",
+    "type": "override"
+  },
+  "asset/base/sound/sfx/league_yorick_sfx_e_cast": {
+    "remapping": "asset/league_yorick/sound/sfx/league_yorick_sfx_e_cast",
+    "type": "override"
+  },
+  "asset/base/sound/sfx/league_yorick_sfx_e_ghoul": {
+    "remapping": "asset/league_yorick/sound/sfx/league_yorick_sfx_e_ghoul",
+    "type": "override"
+  },
+  "asset/base/sound/sfx/league_yorick_sfx_e_hit": {
+    "remapping": "asset/league_yorick/sound/sfx/league_yorick_sfx_e_hit",
+    "type": "override"
+  },
+  "asset/base/sound/sfx/league_yorick_sfx_ghoul_hit": {
+    "remapping": "asset/league_yorick/sound/sfx/league_yorick_sfx_ghoul_hit",
+    "type": "override"
+  },
+  "asset/base/sound/sfx/league_yorick_sfx_ghoul_spawn": {
+    "remapping": "asset/league_yorick/sound/sfx/league_yorick_sfx_ghoul_spawn",
+    "type": "override"
+  },
+  "asset/base/sound/sfx/league_yorick_sfx_q_heal": {
+    "remapping": "asset/league_yorick/sound/sfx/league_yorick_sfx_q_heal",
+    "type": "override"
+  },
+  "asset/base/sound/sfx/league_yorick_sfx_q_hit": {
+    "remapping": "asset/league_yorick/sound/sfx/league_yorick_sfx_q_hit",
+    "type": "override"
+  },
+  "asset/base/sound/sfx/league_yorick_sfx_q_ignite": {
+    "remapping": "asset/league_yorick/sound/sfx/league_yorick_sfx_q_ignite",
+    "type": "override"
+  },
+  "asset/base/sound/sfx/league_yorick_sfx_q_swing": {
+    "remapping": "asset/league_yorick/sound/sfx/league_yorick_sfx_q_swing",
+    "type": "override"
+  },
+  "asset/base/sound/sfx/league_yorick_sfx_r_cast": {
+    "remapping": "asset/league_yorick/sound/sfx/league_yorick_sfx_r_cast",
+    "type": "override"
+  },
+  "asset/base/sound/sfx/league_yorick_sfx_r_choir": {
+    "remapping": "asset/league_yorick/sound/sfx/league_yorick_sfx_r_choir",
+    "type": "override"
+  },
+  "asset/base/sound/sfx/league_yorick_sfx_r_pulse": {
+    "remapping": "asset/league_yorick/sound/sfx/league_yorick_sfx_r_pulse",
+    "type": "override"
+  },
+  "asset/base/sound/sfx/league_yorick_sfx_r_vanish": {
+    "remapping": "asset/league_yorick/sound/sfx/league_yorick_sfx_r_vanish",
+    "type": "override"
+  },
+  "asset/base/sound/sfx/league_yorick_ghoul_hit": {
+    "remapping": "asset/league_yorick/sound/sfx/league_yorick_ghoul_hit",
+    "type": "override"
+  },
+  "asset/base/sound/sfx/league_yorick_ghoul_spawn": {
+    "remapping": "asset/league_yorick/sound/sfx/league_yorick_ghoul_spawn",
+    "type": "override"
+  }
+}

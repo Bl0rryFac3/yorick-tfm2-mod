@@ -1,0 +1,14 @@
+{
+  "plays": [
+    {
+      "delay": 0.0,
+      "clip": "league_yorick_sfx_q_ignite",
+      "volume": 0.85
+    },
+    {
+      "delay": 0.08,
+      "clip": "league_yorick_sfx_q_swing",
+      "volume": 0.8
+    }
+  ]
+}

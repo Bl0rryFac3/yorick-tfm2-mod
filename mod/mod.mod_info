@@ -1,0 +1,15 @@
+{
+  "mod_id": "league_yorick",
+  "name": "League of Legends: Yorick (The Shepherd of Souls)",
+  "version": "0.7.0",
+  "author": "Yorick Mod Pack (BoDUD Pipeline + Stable Native Summon Addon)",
+  "contains_code": true,
+  "mod_type": "native",
+  "description": "Adds Yorick, the Shepherd of Souls from League of Legends, with native Rust addon (league_yorick.dll / .so) that spawns real, controllable Mist Walker Ghouls and an autonomous Maiden of the Mist on the arena.",
+  "dependencies": [
+    {
+      "mod_id": "base",
+      "version": ">=0.4.11"
+    }
+  ]
+}

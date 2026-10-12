@@ -1,0 +1,9 @@
+{
+  "plays": [
+    {
+      "delay": 0.0,
+      "clip": "league_yorick_sfx_ghoul_hit",
+      "volume": 0.65
+    }
+  ]
+}

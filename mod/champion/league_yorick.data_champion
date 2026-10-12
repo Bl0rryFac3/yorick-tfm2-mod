@@ -1,0 +1,424 @@
+{
+  "id": "league_yorick",
+  "category": "Melee",
+  "tags": [
+    "AD",
+    "Melee",
+    "Tank",
+    "CC",
+    "Heal"
+  ],
+  "sprite": "asset/league_yorick/champions/league_yorick",
+  "anim_prefix": "",
+  "skill_icons": [
+    "asset/league_yorick/icons/league_yorick_skill",
+    "asset/league_yorick/icons/league_yorick_skill2",
+    "asset/league_yorick/icons/league_yorick_ult"
+  ],
+  "stat": {
+    "attack": 92,
+    "magic_power": 0,
+    "hp": 1100,
+    "defence": 36,
+    "magic_resistance": 28,
+    "move_speed": 980,
+    "hp_regen": 0,
+    "stack": 0,
+    "crit_chance": 0
+  },
+  "growth": {
+    "attack": 18,
+    "magic_power": 0,
+    "hp": 110,
+    "defence": 9,
+    "magic_resistance": 4,
+    "move_speed": 10,
+    "hp_regen": 0,
+    "stack": 0,
+    "crit_chance": 0
+  },
+  "attack": {
+    "action_name": "attack",
+    "description": "#asset/base/text/champion?description.league_yorick.attack",
+    "duration": 24,
+    "cooltime": 65,
+    "start_timing": 14,
+    "cancelable": true,
+    "range": 25000,
+    "casting_type": "Targeting",
+    "casting_target": "Enemy",
+    "attack_type": "BaseAttack",
+    "effect": {
+      "type": "Combine",
+      "effects": [
+        {
+          "type": "Attack",
+          "damage": 0,
+          "attack_ratio": 100,
+          "attack_effect_type": "Target"
+        },
+        {
+          "type": "ViewEffect",
+          "name": "league_yorick_hit"
+        }
+      ]
+    }
+  },
+  "skill": {
+    "action_name": "skill",
+    "description": "#asset/base/text/champion?description.league_yorick.skill",
+    "duration": 24,
+    "cooltime": 240,
+    "start_timing": 1,
+    "cancelable": false,
+    "range": 30000,
+    "casting_type": "Targeting",
+    "casting_target": "EnemyWithoutTower",
+    "attack_type": "Skill",
+    "effect": {
+      "type": "Combine",
+      "effects": [
+        {
+          "type": "Sfx",
+          "name": "league_yorick_q_cast"
+        },
+        {
+          "type": "RemoveCasterBuff",
+          "name": "league_yorick_q_cast"
+        },
+        {
+          "type": "AddCasterBuff",
+          "only_to_enemy": false,
+          "buff_state": {
+            "name": "league_yorick_q_cast",
+            "duration": {
+              "Time": {
+                "tick": 15
+              }
+            }
+          }
+        },
+        {
+          "type": "Delayed",
+          "tick": 12,
+          "effects": [
+            {
+              "type": "Attack",
+              "damage": 65,
+              "attack_ratio": 120,
+              "attack_effect_type": "Target"
+            },
+            {
+              "type": "TargetSfx",
+              "name": "league_yorick_q_hit"
+            },
+            {
+              "type": "ViewEffect",
+              "name": "league_yorick_q_hit"
+            },
+            {
+              "type": "Heal",
+              "amount": 40,
+              "attack_ratio": 30,
+              "ap_ratio": 0,
+              "heal_type": "Caster"
+            },
+            {
+              "type": "ViewEffect",
+              "name": "league_yorick_q_heal"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "skill2": {
+    "action_name": "skill2",
+    "description": "#asset/base/text/champion?description.league_yorick.skill2",
+    "duration": 22,
+    "cooltime": 390,
+    "start_timing": 1,
+    "cancelable": false,
+    "range": 55000,
+    "casting_type": "Position",
+    "casting_target": "EnemyWithoutTower",
+    "attack_type": "Skill",
+    "effect": {
+      "type": "Combine",
+      "effects": [
+        {
+          "type": "Sfx",
+          "name": "league_yorick_e_cast"
+        },
+        {
+          "type": "RemoveCasterBuff",
+          "name": "league_yorick_w_cast"
+        },
+        {
+          "type": "AddCasterBuff",
+          "only_to_enemy": false,
+          "buff_state": {
+            "name": "league_yorick_w_cast",
+            "duration": {
+              "Time": {
+                "tick": 15
+              }
+            }
+          }
+        },
+        {
+          "type": "RemoveCasterBuff",
+          "name": "league_yorick_e_haste"
+        },
+        {
+          "type": "AddCasterBuff",
+          "only_to_enemy": false,
+          "buff_state": {
+            "name": "league_yorick_e_haste",
+            "duration": {
+              "Time": {
+                "tick": 120
+              }
+            },
+            "move_speed_mult": 20
+          }
+        },
+        {
+          "type": "Delayed",
+          "tick": 9,
+          "effects": [
+            {
+              "type": "ParabolicProjectile",
+              "name": "league_yorick_e_glob",
+              "travel_time": 14,
+              "range": 55000,
+              "shape": {
+                "Circle": {
+                  "radius": 8000
+                }
+              },
+              "applied_target": "EnemyWithoutTower",
+              "applied_effects": [],
+              "end_effects": [
+                {
+                  "type": "ViewEffect",
+                  "name": "league_yorick_w_wall"
+                },
+                {
+                  "type": "RangeProjectile",
+                  "name": "league_yorick_e_burst",
+                  "delay": 2,
+                  "apply": 1,
+                  "shape": {
+                    "Circle": {
+                      "radius": 26000
+                    }
+                  },
+                  "applied_target": "EnemyWithoutTower",
+                  "applied_effects": [
+                    {
+                      "casting_type": "Targeting",
+                      "effect": {
+                        "type": "Combine",
+                        "effects": [
+                          {
+                            "type": "TargetSfx",
+                            "name": "league_yorick_e_hit"
+                          },
+                          {
+                            "type": "Attack",
+                            "damage": 70,
+                            "attack_ratio": 80,
+                            "attack_effect_type": "Target"
+                          },
+                          {
+                            "type": "Bind",
+                            "duration": 45
+                          },
+                          {
+                            "type": "AddBuff",
+                            "buff_state": {
+                              "name": "league_yorick_e_mark",
+                              "duration": {
+                                "Time": {
+                                  "tick": 180
+                                }
+                              },
+                              "move_speed_mult": -25,
+                              "defence_mult": -15
+                            }
+                          },
+                          {
+                            "type": "ViewEffect",
+                            "name": "league_yorick_ghoul_claw"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ult": {
+    "action_name": "ult",
+    "description": "#asset/base/text/champion?description.league_yorick.ult",
+    "duration": 28,
+    "cooltime": 2400,
+    "start_timing": 1,
+    "cancelable": false,
+    "range": 65000,
+    "casting_type": "Targeting",
+    "casting_target": "EnemyChampion",
+    "attack_type": "Skill",
+    "effect": {
+      "type": "Combine",
+      "effects": [
+        {
+          "type": "Sfx",
+          "name": "league_yorick_r_cast"
+        },
+        {
+          "type": "ViewEffect",
+          "name": "league_yorick_r_ring"
+        },
+        {
+          "type": "RemoveCasterBuff",
+          "name": "league_yorick_r_cast"
+        },
+        {
+          "type": "AddCasterBuff",
+          "only_to_enemy": false,
+          "buff_state": {
+            "name": "league_yorick_r_cast",
+            "duration": {
+              "Time": {
+                "tick": 15
+              }
+            }
+          }
+        },
+        {
+          "type": "RemoveCasterBuff",
+          "name": "league_yorick_r_stats"
+        },
+        {
+          "type": "AddCasterBuff",
+          "only_to_enemy": false,
+          "buff_state": {
+            "name": "league_yorick_r_stats",
+            "duration": {
+              "Time": {
+                "tick": 1200
+              }
+            },
+            "attack_mult": 15,
+            "defence": 15,
+            "magic_resistance": 15
+          }
+        },
+        {
+          "type": "Delayed",
+          "tick": 12,
+          "effects": [
+            {
+              "type": "Attack",
+              "damage": 80,
+              "attack_ratio": 70,
+              "attack_effect_type": "Target"
+            },
+            {
+              "type": "AddBuff",
+              "buff_state": {
+                "name": "league_yorick_e_mark",
+                "duration": {
+                  "Time": {
+                    "tick": 180
+                  }
+                },
+                "move_speed_mult": -20
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "view_projectiles": [
+    {
+      "type": "Animated",
+      "name": "league_yorick_e_glob",
+      "anim": "asset/league_yorick/effects/league_yorick_fx",
+      "tag": "e_glob",
+      "repeat": true,
+      "z": 1
+    }
+  ],
+  "view_effects": [
+    {
+      "type": "Animation",
+      "name": "league_yorick_hit",
+      "anim": "asset/league_yorick/effects/league_yorick_fx",
+      "tag": "hit",
+      "z": 1,
+      "is_follow": false
+    },
+    {
+      "type": "Animation",
+      "name": "league_yorick_q_hit",
+      "anim": "asset/league_yorick/effects/league_yorick_fx",
+      "tag": "q_hit",
+      "z": 1,
+      "is_follow": true
+    },
+    {
+      "type": "Animation",
+      "name": "league_yorick_q_heal",
+      "anim": "asset/league_yorick/effects/league_yorick_fx",
+      "tag": "q_heal",
+      "z": 1,
+      "is_follow": true
+    },
+    {
+      "type": "Animation",
+      "name": "league_yorick_ghoul_claw",
+      "anim": "asset/league_yorick/effects/league_yorick_fx",
+      "tag": "ghoul_claw",
+      "z": 1,
+      "is_follow": true
+    },
+    {
+      "type": "Animation",
+      "name": "league_yorick_w_wall",
+      "anim": "asset/league_yorick/effects/league_yorick_big",
+      "tag": "w_wall",
+      "z": -1,
+      "is_follow": false
+    },
+    {
+      "type": "Animation",
+      "name": "league_yorick_r_ring",
+      "anim": "asset/league_yorick/effects/league_yorick_big",
+      "tag": "r_ring",
+      "z": -2,
+      "is_follow": true
+    }
+  ],
+  "view_buffs": [
+    {
+      "type": "Animated",
+      "name": "league_yorick_e_mark",
+      "anim": "asset/league_yorick/effects/league_yorick_fx",
+      "tag": "e_mark",
+      "z": 2
+    }
+  ],
+  "passive": {
+    "passive_ref": "league_yorick:shepherd_of_souls",
+    "params": {}
+  }
+}

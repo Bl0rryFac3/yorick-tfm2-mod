@@ -1,0 +1,92 @@
+{
+  "en": {
+    "description": {
+      "league_yorick": {
+        "name": "Yorick",
+        "attack": "Basic attacks strike with his monk's spade for <i#asset/base/ui/banpick/champion_stat_icon:ad_0><#ff9028ff>100% AD<> <#ff9028ff>physical damage<>. Passive <#ff9028ff>Shepherd of Souls<>: nearby enemy deaths leave graves; Yorick raises up to <#ffb900ff>4<> <#a974ffff>Mist Walker Ghouls<> (<#ffb900ff>8s<>) that hunt enemies and leap onto targets marked by <#a974ffff>Mourning Mist<>.",
+        "skill": "<#ff9028ff>Last Rites / Awakening<>: Yorick slams his target for <#ff9028ff>65<> + <i#asset/base/ui/banpick/champion_stat_icon:ad_0><#ff9028ff>120% AD<> <#ff9028ff>physical damage<>, heals himself for <#6aff55ff>40<> + <i#asset/base/ui/banpick/champion_stat_icon:ad_0><#ff9028ff>30% AD<>, and raises a <#a974ffff>Mist Walker Ghoul<> from nearby graves.",
+        "skill2": "<#ff9028ff>Dark Procession & Mourning Mist<>: Raises a <#a974ffff>Corpse Wall<> that <#ef5350ff>roots<> enemies for <#ffb900ff>0.75s<> and hurls Black Mist for <#ff9028ff>70<> + <i#asset/base/ui/banpick/champion_stat_icon:ad_0><#ff9028ff>80% AD<> <#ff9028ff>physical damage<>, <#ef5350ff>slowing<> by <#ffb900ff>25%<> for <#ffb900ff>3s<> and commanding all <#a974ffff>Mist Walkers<> to leap onto the marked target.",
+        "ult": "<#ff9028ff>Eulogy of the Isles<>: Strikes for <#ff9028ff>80<> + <i#asset/base/ui/banpick/champion_stat_icon:ad_0><#ff9028ff>70% AD<> <#ff9028ff>physical damage<> and summons <#a974ffff>The Maiden of the Mist<> plus <#ffb900ff>2<> <#a974ffff>Mist Walkers<> as independent units for <#ffb900ff>20s<>. Attacks against the Maiden's target deal <#a974ffff>3% Max HP<> bonus <#a974ffff>magic damage<> and heal Yorick."
+      }
+    },
+    "skill_name": {
+      "league_yorick": {
+        "skill1": "Last Rites & Awakening",
+        "skill2": "Dark Procession & Mourning Mist",
+        "ult": "Eulogy of the Isles"
+      }
+    }
+  },
+  "zh-hans": {
+    "description": {
+      "league_yorick": {
+        "name": "约里克",
+        "attack": "普攻挥舞铁锹造成 <i#asset/base/ui/banpick/champion_stat_icon:ad_0><#ff9028ff>100%攻击力<> <#ff9028ff>物理伤害<>。被动 <#ff9028ff>牧魂人<>：附近敌人阵亡留下坟墓，最多唤醒<#ffb900ff>4<>只<#a974ffff>雾行者<>（持续<#ffb900ff>8秒<>）协同作战并跃击标记目标。",
+        "skill": "<#ff9028ff>临终仪式 / 唤醒<>：铁锹重击造成 <#ff9028ff>65<> + <i#asset/base/ui/banpick/champion_stat_icon:ad_0><#ff9028ff>120%攻击力<> <#ff9028ff>物理伤害<>，回复 <#6aff55ff>40<> + <i#asset/base/ui/banpick/champion_stat_icon:ad_0><#ff9028ff>30%攻击力<> 生命值，并唤醒一只<#a974ffff>雾行者<>参战。",
+        "skill2": "<#ff9028ff>暗灵缠身 & 哀伤之雾<>：升起尸墙<#ef5350ff>禁锢<>敌人<#ffb900ff>0.75秒<>并投掷黑雾造成 <#ff9028ff>70<> + <i#asset/base/ui/banpick/champion_stat_icon:ad_0><#ff9028ff>80%攻击力<> <#ff9028ff>物理伤害<>，<#ef5350ff>减速<><#ffb900ff>25%<>持续<#ffb900ff>3秒<>，号令所有<#a974ffff>雾行者<>跃击目标。",
+        "ult": "<#ff9028ff>海屿悼词<>：造成 <#ff9028ff>80<> + <i#asset/base/ui/banpick/champion_stat_icon:ad_0><#ff9028ff>70%攻击力<> <#ff9028ff>物理伤害<>，召唤独立作战的<#a974ffff>迷雾室女<>与<#ffb900ff>2<>只<#a974ffff>雾行者<>持续<#ffb900ff>20秒<>，对目标附加<#a974ffff>3%最大生命值<><#a974ffff>魔法伤害<>并治疗约里克。"
+      }
+    },
+    "skill_name": {
+      "league_yorick": {
+        "skill1": "临终仪式 / 唤醒",
+        "skill2": "暗灵缠身 & 哀伤之雾",
+        "ult": "海屿悼词"
+      }
+    }
+  },
+  "zh-hant": {
+    "description": {
+      "league_yorick": {
+        "name": "約瑞科",
+        "attack": "普攻揮舞鐵鍬造成 <i#asset/base/ui/banpick/champion_stat_icon:ad_0><#ff9028ff>100%攻擊力<> <#ff9028ff>物理傷害<>。被動 <#ff9028ff>牧魂人<>：附近敵人陣亡留下墳墓，最多喚醒<#ffb900ff>4<>隻<#a974ffff>霧行者<>（持續<#ffb900ff>8秒<>）協同作戰並躍擊標記目標。",
+        "skill": "<#ff9028ff>臨終儀式 / 喚醒<>：鐵鍬重擊造成 <#ff9028ff>65<> + <i#asset/base/ui/banpick/champion_stat_icon:ad_0><#ff9028ff>120%攻擊力<> <#ff9028ff>物理傷害<>，回復 <#6aff55ff>40<> + <i#asset/base/ui/banpick/champion_stat_icon:ad_0><#ff9028ff>30%攻擊力<> 生命值，並喚醒一隻<#a974ffff>霧行者<>參戰。",
+        "skill2": "<#ff9028ff>黯靈纏身 & 哀傷之霧<>：升起屍牆<#ef5350ff>禁錮<>敵人<#ffb900ff>0.75秒<>並投擲黑霧造成 <#ff9028ff>70<> + <i#asset/base/ui/banpick/champion_stat_icon:ad_0><#ff9028ff>80%攻擊力<> <#ff9028ff>物理傷害<>，<#ef5350ff>減速<><#ffb900ff>25%<>持續<#ffb900ff>3秒<>，號令所有<#a974ffff>霧行者<>躍擊目標。",
+        "ult": "<#ff9028ff>海嶼悼詞<>：造成 <#ff9028ff>80<> + <i#asset/base/ui/banpick/champion_stat_icon:ad_0><#ff9028ff>70%攻擊力<> <#ff9028ff>物理傷害<>，召喚獨立作戰的<#a974ffff>迷霧室女<>與<#ffb900ff>2<>隻<#a974ffff>霧行者<>持續<#ffb900ff>20秒<>，對目標附加<#a974ffff>3%最大生命值<><#a974ffff>魔法傷害<>並治療約瑞科。"
+      }
+    },
+    "skill_name": {
+      "league_yorick": {
+        "skill1": "臨終儀式 / 喚醒",
+        "skill2": "黯靈纏身 & 哀傷之霧",
+        "ult": "海嶼悼詞"
+      }
+    }
+  },
+  "ko": {
+    "description": {
+      "league_yorick": {
+        "name": "요릭",
+        "attack": "기본 공격으로 <i#asset/base/ui/banpick/champion_stat_icon:ad_0><#ff9028ff>100% 공격력<>의 <#ff9028ff>물리 피해<>를 입힙니다. 기본 지속 효과 <#ff9028ff>영혼의 길잡이<>: 주변 적이 처치되면 무덤이 생성되며 최대 <#ffb900ff>4<>마리의 <#a974ffff>안개 망령<>(<#ffb900ff>8초<>)을 깨워 싸우게 합니다.",
+        "skill": "<#ff9028ff>최후의 의식 / 각성<>: 삽으로 내려쳐 <#ff9028ff>65<> + <i#asset/base/ui/banpick/champion_stat_icon:ad_0><#ff9028ff>120% 공격력<>의 <#ff9028ff>물리 피해<>를 입히고 체력을 <#6aff55ff>40<> + <i#asset/base/ui/banpick/champion_stat_icon:ad_0><#ff9028ff>30% 공격력<> 회복하며 <#a974ffff>안개 망령<> 1마리를 소환합니다.",
+        "skill2": "<#ff9028ff>망자의 진 & 애도의 안개<>: 망자의 벽으로 적을 <#ffb900ff>0.75초<> 동안 <#ef5350ff>속박<>하고 검은 안개를 던져 <#ff9028ff>70<> + <i#asset/base/ui/banpick/champion_stat_icon:ad_0><#ff9028ff>80% 공격력<>의 <#ff9028ff>물리 피해<>와 <#ffb900ff>25%<> <#ef5350ff>둔화<>를 입히며 <#a974ffff>안개 망령<>이 대상에게 도약합니다.",
+        "ult": "<#ff9028ff>군도의 장송곡<>: <#ff9028ff>80<> + <i#asset/base/ui/banpick/champion_stat_icon:ad_0><#ff9028ff>70% 공격력<>의 <#ff9028ff>물리 피해<>를 입히고 <#ffb900ff>20초<> 동안 함께 싸우는 <#a974ffff>안개 마녀<>와 <#a974ffff>안개 망령<> <#ffb900ff>2<>마리를 소환합니다."
+      }
+    },
+    "skill_name": {
+      "league_yorick": {
+        "skill1": "최후의 의식 / 각성",
+        "skill2": "망자의 진 & 애도의 안개",
+        "ult": "군도의 장송곡"
+      }
+    }
+  },
+  "ja": {
+    "description": {
+      "league_yorick": {
+        "name": "ヨリック",
+        "attack": "通常攻撃で <i#asset/base/ui/banpick/champion_stat_icon:ad_0><#ff9028ff>100%攻撃力<>の<#ff9028ff>物理ダメージ<>を与える。固有スキル <#ff9028ff>魂の導き手<>：周囲の敵が倒れると墓が残り、最大<#ffb900ff>4<>体の<#a974ffff>ミストウォーカー<>（<#ffb900ff>8秒<>）を呼び起こす。",
+        "skill": "<#ff9028ff>葬送 / 目覚め<>：<#ff9028ff>65<> + <i#asset/base/ui/banpick/champion_stat_icon:ad_0><#ff9028ff>120%攻撃力<>の<#ff9028ff>物理ダメージ<>を与え、体力を <#6aff55ff>40<> + <i#asset/base/ui/banpick/champion_stat_icon:ad_0><#ff9028ff>30%攻撃力<> 回復し、<#a974ffff>ミストウォーカー<>を1体召喚する。",
+        "skill2": "<#ff9028ff>屍の列 & 悲嘆の霧<>：屍の壁で敵を<#ffb900ff>0.75秒<><#ef5350ff>スネア<>し、黒き霧で <#ff9028ff>70<> + <i#asset/base/ui/banpick/champion_stat_icon:ad_0><#ff9028ff>80%攻撃力<>の<#ff9028ff>物理ダメージ<>と<#ffb900ff>25%<><#ef5350ff>スロウ<>を与え、<#a974ffff>ミストウォーカー<>を飛びかからせる。",
+        "ult": "<#ff9028ff>嘆きの墓標<>：<#ff9028ff>80<> + <i#asset/base/ui/banpick/champion_stat_icon:ad_0><#ff9028ff>70%攻撃力<>の<#ff9028ff>物理ダメージ<>を与え、<#ffb900ff>20秒<>間自律戦闘する<#a974ffff>霧の乙女<>と<#ffb900ff>2<>体の<#a974ffff>ミストウォーカー<>を召喚する。"
+      }
+    },
+    "skill_name": {
+      "league_yorick": {
+        "skill1": "葬送 / 目覚め",
+        "skill2": "屍の列 & 悲嘆の霧",
+        "ult": "嘆きの墓標"
+      }
+    }
+  }
+}

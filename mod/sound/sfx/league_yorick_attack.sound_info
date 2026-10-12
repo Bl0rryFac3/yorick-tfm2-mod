@@ -1,0 +1,14 @@
+{
+  "plays": [
+    {
+      "delay": 0.0,
+      "clip": "league_yorick_sfx_atk_swing",
+      "volume": 0.75
+    },
+    {
+      "delay": 0.22,
+      "clip": "league_yorick_sfx_atk_hit",
+      "volume": 0.85
+    }
+  ]
+}

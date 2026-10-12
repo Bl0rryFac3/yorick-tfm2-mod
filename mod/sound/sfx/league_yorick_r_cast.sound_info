@@ -1,0 +1,14 @@
+{
+  "plays": [
+    {
+      "delay": 0.0,
+      "clip": "league_yorick_sfx_r_cast",
+      "volume": 0.95
+    },
+    {
+      "delay": 0.15,
+      "clip": "league_yorick_sfx_r_choir",
+      "volume": 0.6
+    }
+  ]
+}
